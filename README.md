@@ -1,1 +1,1 @@
-# Phaser Beta 360 testbed
+# Phaser Beta 3.60 testbed
