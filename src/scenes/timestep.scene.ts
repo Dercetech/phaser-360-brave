@@ -41,7 +41,7 @@ export class BraveTimestep extends Phaser.Scene {
     this._previous = time;
 
     // console.log(`Elapsed since last frame: ${Math.round(elapsed)} - delta: ${Math.round(delta)}`);
-    this._valueBmp.setText(getValueDisplay(elapsed, elapsed));
+    this._valueBmp.setText(getValueDisplay(elapsed, delta));
   }
 }
 
